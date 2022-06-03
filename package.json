@@ -1,0 +1,34 @@
+{
+  "name": "lendbothsingle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "solhint": "./node_modules/.bin/solhint -f table contracts/*.sol",
+    "prettier:solidity": "./node_modules/.bin/prettier --write contracts/*.sol"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.0",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.3.1",
+    "@openzeppelin/truffle-upgrades": "^1.14.0",
+    "@truffle/hdwallet-provider": "^2.0.6",
+    "truffle-contract-size": "^2.0.1"
+  },
+  "devDependencies": {
+    "eth-gas-reporter": "^0.2.22",
+    "prettier": "^2.4.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.18",
+    "solhint": "^3.3.6",
+    "solhint-plugin-prettier": "0.0.5",
+    "solidity-coverage": "^0.8.0-beta.0",
+    "web3": "1.5.2"
+  }
+}
