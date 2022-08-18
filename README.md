@@ -82,21 +82,21 @@ let lendInstance = await deployProxy(Lend, [MasterInstance.address, nftinstance.
 Implementation Details 
 ======================
 
+### `Lend` contract
+
+The Lend contract is the contract from which the user interacts with. This contract is responsible for lending, repayment and liquidation. For more details see [Lend.md](./docs/Lend.md)
+
 ### `Master` Contract
 
-The Master contract is the contract from which the lend contract gets calculated values and conversion according to current market prices.
+The Master contract is the contract from which the lend contract gets calculated values and conversion according to current market prices. For more details see [Master.md](./docs/Master.md)
 
 ### `Oracle` Contract
 
-The Oracle contract is the contract from which the master contract fetch current prices for calculation.
+The Oracle contract is the contract from which the master contract fetch current prices for calculation. For more details see [Oracle.md](./docs/Oracle.md)
 
 ### `LendNFT` Contract
 
 The LendNFT contract is the contract from which the lend contract uses to mint and burn lend NFTs which are essentially a proof of lend.
-
-### `Lend` contract
-
-The Lend contract is the contract from which the user interacts with. This contract is responsible for lending, repayment and liquidation.
 
 <br>
 
