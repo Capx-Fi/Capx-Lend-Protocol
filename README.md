@@ -79,6 +79,32 @@ let lendInstance = await deployProxy(Lend, [MasterInstance.address, nftinstance.
 
 <br>
 
+## Subgraph Query URLs
+
+#### Ethereum
+
+| Subgraph     | Query URL  |
+|---------------------|--------------------------------------------------------------------|
+| Lend Subgraph     | https://api.thegraph.com/subgraphs/name/shreyas3336/lend |
+
+#### BSC
+
+| Subgraph     | Query URL  |
+|---------------------|--------------------------------------------------------------------|
+| Lend Subgraph     | https://api.thegraph.com/subgraphs/name/shreyas3336/lend-bsc |
+
+#### Matic (Polygon)
+
+| Subgraph     | Query URL  |
+|---------------------|--------------------------------------------------------------------|
+| Lend Subgraph     | https://api.thegraph.com/subgraphs/name/shreyas3336/lend-matic |
+
+#### Avalanche 
+
+| Subgraph     | Query URL  |
+|---------------------|--------------------------------------------------------------------|
+| Lend Subgraph     | https://api.thegraph.com/subgraphs/name/shreyas3336/lend-avax |
+
 Implementation Details 
 ======================
 
